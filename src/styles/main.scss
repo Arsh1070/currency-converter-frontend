@@ -1,0 +1,25 @@
+@charset 'UTF-8';
+// 1. Configuration and helpers
+//@use "node_modules/antd/dist/antd.min.css";
+@use './vendors/normalize';
+@use './abstracts/variables';
+@use './abstracts/functions';
+@use './abstracts/mixins';
+
+// 3. Base Stylings
+@use 'base/base';
+@use 'base/fonts';
+@use 'base/typography';
+@use 'base/helpers';
+@use 'base/margin';
+@use 'base/padding';
+@use 'themes/default';
+
+//4. Component stylings
+@use 'components/navbar';
+@use 'components/card';
+@use 'components/form';
+
+//5. pages styling
+@use 'pages/App';
+@use 'pages/Home';

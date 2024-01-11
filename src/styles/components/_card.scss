@@ -1,0 +1,12 @@
+.Card {
+  width: 500px;
+  border-radius: 8px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  margin: 10px 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .Card {
+    width: 80%;
+  }
+}

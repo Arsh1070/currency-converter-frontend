@@ -1,0 +1,16 @@
+.Navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &-Left {
+    font-size: 20px;
+    font-weight: bold;
+    &-Icon {
+      color: white;
+    }
+    &-Icon:hover {
+      color: white;
+      text-decoration: none;
+    }
+  }
+}
