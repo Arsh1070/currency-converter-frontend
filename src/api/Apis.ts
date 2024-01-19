@@ -7,9 +7,6 @@ export const getCoinsList = async (search?: string) => {
     payload.url += `?search=${search}`;
     const result = await apiClient(payload);
     return result;
-  } else {
-    const result = await apiClient(payload);
-    return result;
   }
 };
 
